@@ -1,0 +1,96 @@
+/*
+ * @file overview: find xuzheng
+ * @author RenXiaoFei
+ * @version v1
+ * @build 2016.07
+ */
+
+@-webkit-keyframes suipian0{
+	0%{
+		left: -20%;top: -15%;
+		-webkit-transform: rotateZ(-40deg);
+	}	
+	100%{		
+		left: 0.5%;top: 0.15%;
+		-webkit-transform: rotateZ(0deg);
+	}
+}
+
+@-webkit-keyframes suipian1{
+	0%{
+		right: -20%;top: -15%;
+		-webkit-transform: rotateZ(60deg);
+	}	
+	100%{
+		right: 0;top: 0;
+		-webkit-transform: rotateZ(0deg);	
+	}
+}
+
+@-webkit-keyframes suipian2{
+	0%{
+		top: 16%;left: -18%;
+		-webkit-transform: rotateZ(58deg);
+	}	
+	100%{
+		top: 25%;left: 0.5%;
+		-webkit-transform: rotateZ(0deg);		
+	}
+}
+
+@-webkit-keyframes suipian3{
+	0%{
+		right: 8%;top: 0%;
+	}	
+	100%{
+		right: 0;top: 12.5%;		
+	}
+}
+
+@-webkit-keyframes suipian4{
+	0%{
+		left: 28%;top: 24%;
+		-webkit-transform: rotateZ(-138deg) scale(3,3);
+	}
+	100%{
+		left: 27.5%;top: 24.5%;	
+		-webkit-transform: rotateZ(0deg)scale(1,1);
+	}
+}
+
+@-webkit-keyframes suipian5{
+	0%{
+		right: -30%;top: 35%;
+	}	
+	100%{
+		right: 0.1%;top: 45%;		
+	}
+}
+
+@-webkit-keyframes suipian6{
+	0%{
+		left: -10%; bottom: 0;
+	}	
+	100%{
+		left: 0; bottom: 0;		
+	}
+}
+
+@-webkit-keyframes suipian7{
+	0%{
+		right: -30%; bottom: 0.1%;
+	}	
+	100%{
+		right: 0; bottom: 0.1%;		
+	}
+}
+
+
+@-webkit-keyframes vivo{
+	0%{
+		-webkit-transform: translate(-50%,-50%) scale(0,0);
+	}	
+	100%{
+		-webkit-transform: translate(-50%,-50%) scale(1,1);		
+	}
+}

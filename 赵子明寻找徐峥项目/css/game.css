@@ -1,0 +1,75 @@
+/*
+ * @file overview: find xuzheng
+ * @author RenXiaoFei
+ * @version v1
+ * @build 2016.07
+ */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,legend,button,form,fieldset,input,textarea,p,blockquote,th,td {padding: 0; margin: 0;}
+a{text-decoration: none;}
+ul{list-style: none;}
+
+.box{position: relative; width: 100%;height: 100%;margin: 0 auto;overflow: hidden;}
+.box .bj1{width: 100%;height: 100%; background: #000;}
+.box .bj1 p{position: absolute;left: 50%;top: 40%;color: #fff;width: 190px;font-size: 16px;-webkit-transform: translateX(-50%);}
+
+.box .bj2{position: relative;left: 0;top: 0; width: 100%;height: 100%;background: url(../img2/bg.jpg);background-size: 100% 100%;}
+.box .bj2 .one{overflow: hidden;}
+
+.box .bj2 .one .music{position: absolute;left: 7%;top: 6%; width: 10%;opacity: 0.6;-webkit-transform: rotateZ(0deg);cursor: pointer;}
+.box .bj2 .one .offmusic{position: absolute;left: 7%;top: 6%; width: 10%;opacity: 0.6;display: none;-webkit-transform: rotateZ(0deg);}
+.box .bj2 .one .guan{position: absolute;left: 50%;top: 9%;width: 42%;-webkit-transform: translate(-50%,-50%);}
+.box .bj2 .one .xing{position: absolute;right: 4%;top: 30%;width: 15%;opacity: 0.8;}
+.box .bj2 .one .xing1{position: absolute;bottom: 4%;left: 5%;width: 15%;}
+.box .bj2 .one .xing2{position: absolute;bottom: 6%;right: 5%;width: 15%;}
+
+.box .bj2 .one .content_bj{position: absolute;top: 45%;left: 50%;width: 90%;-webkit-transform: translate(-50%,-50%);}
+.box .bj2 .one #time{position: absolute;top: 18%;left: 50%;-webkit-transform: translateX(-50%); color: red;}
+
+.box .bj2 .one #warp{margin-top: 42.2%;margin-left: 50%;width: 80%;z-index: 55;-webkit-transform: translateX(-50%);}
+.box .bj2 .one #warp img{float: left;}
+
+.box .bj2 .dui{position: absolute;left: 0;top: 0;width: 100%;}
+.box .bj2 .error{position: absolute;left: 0;top: 0;width: 100%;}
+
+.box .bj2 .ov_zi #restar{position: absolute;top: 53%;left: 53%;width: 17%;-webkit-transform: translateX(-50%); z-index: 66;display: none;}
+.box .bj2 .ov_zi #explain{position: absolute;top: 58.1%;left: 53%;width: 17%;-webkit-transform: translateX(-50%); z-index: 66;display: none;}
+
+.box .bj2 .explain_box{position: absolute;top: 0; width: 100%;height: 100%;background: url(../img2/shuoming.png);background-size: 100%;display: none;}
+.box .bj2 .explain_box #close{position: absolute;top: 23.2%;left: 72%;width: 7.5%;}
+
+.box .bj2 .explain_box .boxDa{position: relative;top: 31%;left: 20%;width: 58%;height: 40%;}
+.box .bj2 .explain_box .slide_box{position: absolute;top: 2%;right: 0.1%;width: 3%;height: 98%;}
+.box .bj2 .explain_box .slide_box #slide{position: absolute;width: 98%;}
+
+.box .bj2 .explain_box .neirong_box{position: absolute;top: 2%;left: 0;width: 95%;height: 98%;overflow: hidden;}
+.box .bj2 .explain_box .neirong_box #neirong{width: 96%;}
+
+.box .bj2 .success{position: absolute;top: 35%; width: 100%;}
+.box .bj2 .success p{color: #fff;text-align: center;line-height: 26px;display: none;}
+
+.box .bj2 .pinhe{position: relative;left: 50%;top: 50%;width: 54%;height: 59%; -webkit-transform: translate(-50%,-50%);display: none;}
+.box .bj2 .pinhe .suipian0{position: absolute;left: -20%;top: -15%;width: 65%;-webkit-transform: rotateZ(-40deg);-webkit-animation: suipian0 1.5s linear forwards;}
+.box .bj2 .pinhe .suipian1{position: absolute;right: -20%;top: -15%;width: 63%;-webkit-transform: rotateZ(60deg);-webkit-animation: suipian1 1.5s linear forwards;}
+.box .bj2 .pinhe .suipian2{position: absolute;top: 16%;left: -18%;width: 56%;-webkit-transform: rotateZ(58deg);-webkit-animation: suipian2 1.5s linear forwards;}
+.box .bj2 .pinhe .suipian3{position: absolute;right: 8%;top: 0%;width: 73%;-webkit-animation: suipian3 1.5s linear forwards;}
+.box .bj2 .pinhe .suipian4{position: absolute;left: 28%;top: 24%;width: 55%;-webkit-transform: rotateZ(58deg) scale(2,2);-webkit-animation: suipian4 2s linear forwards;}
+.box .bj2 .pinhe .suipian5{position: absolute;right: -30%;top: 35%; width: 53%;-webkit-animation: suipian5 1.5s linear forwards;}
+.box .bj2 .pinhe .suipian6{position: absolute;left: -10%; bottom: 0; width: 58%;-webkit-animation: suipian6 1.5s linear forwards;}
+.box .bj2 .pinhe .suipian7{position: absolute;right: -30%; bottom: 0.1%;width: 73.5%;-webkit-animation: suipian7 1.5s linear forwards;}
+
+.box .bj2 .vivo{position: relative;left: 50%;top: 50%;width: 60%;height: 59%;-webkit-transform: translate(-50%,-50%);display: none;-webkit-animation: vivo 0.5s linear;}
+.box .bj2 .vivo .heti{position: absolute;left: 50%;top: 50%;width: 100%;-webkit-transform: translate(-50%,-50%);}
+.box .bj2 .vivo .chou{position: absolute;left: 33%;top: 74.5%;width: 33%;}
+.box .bj2 .vivo .shuoming{position: absolute;left: 33%;top: 84.5%;width: 33%;}
+
+.box .bj2 .yihan{width: 100%;display: none;}
+.box .bj2 .yihan .hantu{position: absolute;width: 100%;}
+.box .bj2 .yihan .fanhui{position: absolute;left: 42%;top: 55.7%; width: 16%;}
+
+.box .bj2 .huode{width: 100%;display: none;}
+.box .bj2 .huode .gongxi{position: absolute;width: 100%;}
+.box .bj2 .huode .input:nth-of-type(1){position: absolute;left: 55%;top: 46%; border: 1px solid transparent;outline: none;background: transparent;color: #618995;-webkit-transform: translate(-50%,-50%);width: 30%;}
+.box .bj2 .huode .input:nth-of-type(2){position: absolute;left: 55%;top: 50.5%; border: 1px solid transparent;outline: none;background: transparent;color: #618995;-webkit-transform: translate(-50%,-50%);width: 30%;}
+.box .bj2 .huode #sub{position: absolute;left: 50%;top: 58.5%;color: #62b9d4;background: url(../img2/提交信息.png) center no-repeat;background-size: 80%; width: 20%;border: none;-webkit-transform: translate(-50%,-50%);outline: none;}
+.box .bj2 .huode .jiang{position: absolute;left: 50%;top: 40.5%;width: 20%;-webkit-transform: translate(-50%,-50%);}

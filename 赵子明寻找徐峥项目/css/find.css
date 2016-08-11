@@ -1,0 +1,66 @@
+/*
+ * @file overview: find xuzheng
+ * @author RenXiaoFei
+ * @version v1
+ * @build 2016.07
+ */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,legend,button,form,fieldset,input,textarea,p,blockquote,th,td {padding: 0; margin: 0;}
+a{text-decoration: none;}
+ul{list-style: none;}
+
+body{background: #000;}
+
+.box{background: #000;overflow: hidden;margin: 0 auto;}
+.box .bj1{position: relative;width: 100%;height: 100%;}
+.box .bj1 .music{position: absolute;left: 8%;top: 5%; width: 11%;opacity: 0.6;}
+/*.box .bj1 .offmusic{position: absolute;left: 8%;top: 5%; width: 11%;opacity: 0.6;display: none;}*/
+.box .bj1 #zi{position: absolute;left: 50%;top: 50%;display: inline-block;width: 55%;transform: translate(-43%,-62%);-webkit-animation: zi 6s linear;}
+.box .bj1 #bj1{width: 100%;}
+
+.box .bj2{position: relative; width: 100%;height: 100%;background: url(../img/bj2.png);background-size: 100% 100%;}
+.box .bj2 .music{position: absolute;left: 8%;top: 5%; width: 11%;opacity: 0.6;}
+.box .bj2 .offmusic{position: absolute;left: 8%;top: 5%; width: 11%;opacity: 0.6;display: none;}
+.box .bj2 .bj2_a{position: absolute;left: 13%;top: 18%; width: 16%;opacity: 0.5;-webkit-animation: bj2_a 6s ease-in-out 5s forwards;}
+.box .bj2 .bj2_b{position: absolute;right: 15%;top: 18%;width: 15%;-webkit-animation: bj2_b 6s linear 5s forwards;}
+.box .bj2 .bj2_c{position: absolute;left: 47%;bottom: 12%;width: 10%;opacity: 0.5;-webkit-animation: bj2_c 6s linear 5s;display: none;}
+.box .bj2 #bj2_box{position: absolute;left: 50%;top: 50%;font-size: 15px; color: #fff;width: 210px;height:50%;text-align: center;line-height: 25px;-webkit-transform: translate(-50%,-50%);}
+.box .bj2 #bj2_box p{display: none;}
+
+.box .bj2 #xz{position: absolute;right: -80%;bottom: 5%;width: 80%;-webkit-animation: xz 4s linear 7.5s forwards;}
+.box .bj2 .qiu3{position: absolute;left: -25%;bottom: 10%;width: 25%;-webkit-animation: qiu3 4s linear 7s forwards;opacity: 0.6;}
+.box .bj2 .vivo{position: absolute;left: 50%;top: 50%;width: 50%;-webkit-transform: translate(-50%,-50%);display: none;-webkit-animation: vivo 3s linear forwards;}
+
+.box .bj2 .suipian{position: relative;left: 50%;top: 50%;width: 54%;height: 59%; -webkit-transform: translate(-50%,-50%);display: none;}
+.box .bj2 .suipian .suipian0{position: absolute;left: 0.5%;top: 0.15%; width: 65%;-webkit-animation: suipian0 1s linear 1s forwards;}
+.box .bj2 .suipian .suipian1{position: absolute;right: 0;top: 0; width: 63%;-webkit-animation: suipian1 1s linear 1s forwards;}
+.box .bj2 .suipian .suipian2{position: absolute;top: 25%;left: 0.5%; width: 56%;-webkit-animation: suipian2 1s linear 1s forwards;}
+.box .bj2 .suipian .suipian3{position: absolute;right: 0;top: 12.5%; width: 73%;-webkit-animation: suipian3 1s linear 1s forwards;}
+.box .bj2 .suipian .suipian4{position: absolute;left: 27.5%;top: 24.5%; width: 55%;-webkit-animation: suipian4 1s linear 1s forwards;}
+.box .bj2 .suipian .suipian5{position: absolute;right: 0.1%;top: 45%; width: 53%;-webkit-animation: suipian5 1s linear 1s forwards;}
+.box .bj2 .suipian .suipian6{position: absolute;left: 0; bottom: 0; width: 58%;-webkit-animation: suipian6 1s linear 1s forwards;}
+.box .bj2 .suipian .suipian7{position: absolute;right: 0; bottom: 0.1%; width: 73.5%;-webkit-animation: suipian7 1s linear 1s forwards;}
+
+.box .bj2 .spx{display: none;}
+.box .bj2 .spx1{position: absolute;left: 11%;top: 13%;width: 25%;-webkit-animation: spx1 4s linear 0.1s forwards;}
+.box .bj2 .spx2{position: absolute;left: 65%;top: 13%;width: 25%;-webkit-animation: spx2 4s linear 0.1s forwards;}
+.box .bj2 .spx3{position: absolute;left: 70%;top: 45%;width: 20%;-webkit-animation: spx3 4s linear 0.1s forwards;}
+.box .bj2 .spx4{position: absolute;left: 40%;top: 24%;width: 15%;-webkit-animation: spx4 4s linear 0.1s forwards;}
+.box .bj2 .spx5{position: absolute;left: 45%;top: 40%;width: 13%;-webkit-animation: spx5 4s linear 0.1s forwards;}
+.box .bj2 .spx6{position: absolute;left: 13%;top: 38%;width: 28%;-webkit-animation: spx6 4s linear 0.1s forwards;}
+.box .bj2 .spx7{position: absolute;left: 65%;top: 68%;width: 20%;-webkit-animation: spx7 4s linear 0.1s forwards;}
+.box .bj2 .spx8{position: absolute;left: 20%;top: 63%;width: 20%;-webkit-animation: spx8 4s linear 0.1s forwards;}
+
+.box .bj2 .xing{display: none;}
+.box .bj2 .xing1{position: absolute;left: 40%;top: 10%;width: 15%;opacity: 0.6;-webkit-animation: xing1 4s linear 2s infinite;}
+.box .bj2 .xing2{position: absolute;left: 0.5%;top: 28%;width: 20%;opacity: 0.6;-webkit-animation: xing2 4s linear 2s infinite;}
+.box .bj2 .xing3{position: absolute;left: 33%;top: 28%;width: 15%;opacity: 0.6;-webkit-animation: xing3 4s linear 2s infinite;}
+.box .bj2 .xing4{position: absolute;left: 80%;top: 23%;width: 13%;opacity: 0.6;-webkit-animation: xing4 4s linear 2s infinite;}
+.box .bj2 .xing5{position: absolute;left: 28%;top: 45%;width: 17%;opacity: 0.4;-webkit-animation: xing5 4s linear 2s infinite;}
+.box .bj2 .xing6{position: absolute;left: 55%;top: 55%;width: 18%;opacity: 0.9;-webkit-animation: xing6 4s linear 2s infinite;}
+.box .bj2 .xing7{position: absolute;left: 35%;top: 70%;width: 15%;opacity: 0.4;-webkit-animation: xing7 4s linear 2s infinite;}
+.box .bj2 .xing8{position: absolute;left: 65%;top: 75%;width: 20%;opacity: 0.5;-webkit-animation: xing8 4s linear 2s infinite;}
+
+.box .bj2 .sanjiao{-webkit-animation: sanjiao 3s linear infinite;display: none;}
+.box .bj2 .sanjiao p{position: absolute;bottom: 5%;left: 50%;-webkit-transform: translate(-50%,-50%);color: white;font-size: 14px;}
+.box .bj2 .sanjiao img{position: absolute;bottom: 1.5%;left: 50%;-webkit-transform: translate(-50%,-50%);width: 8%;}

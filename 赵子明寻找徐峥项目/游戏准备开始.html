@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0" />
+		<title>准备开始游戏</title>
+		<link rel="stylesheet" type="text/css" href="css/game.css" />
+		<link rel="stylesheet" type="text/css" href="css/game_animation.css" />
+	</head>
+
+	<body>
+		<div class="box">
+			<div class="bj1">
+				<p>去往行星途中，请稍后......</p>
+			</div>
+
+			<div class="bj2">
+
+				<div id="bj_music">
+					<audio id="bj_m" src="audio/The All Spark （节） (50kb).mp3" loop="loop"></audio>
+					<audio id="bj_mp" src="audio/背景文字页-打字音效.mp3" loop="loop"></audio>
+					<audio id="bj_md" src="audio/倒计时音效 （节）.mp3" loop="loop"></audio>
+					<audio id="bj_mz" src="audio/中奖弹窗页-游戏通关音效（节）.mp3"></audio>
+					<audio id="bj_mwz" src="audio/未中奖弹窗-节奏大师结束音效 (节).mp3"></audio>
+					<audio id="bj_ms" src="audio/闯关失败页-out音效(节).wav"></audio>
+				</div>
+
+				<div class="one">
+					<div>
+						<img class="music" src="img/music.png" />
+						<img class="offmusic music" src="img/off.png" />
+					</div>
+					<!--<h2>第一关 水星</h2>-->
+
+					<img class="xing" src="img2/xingxing.png" />
+					<img class="xing1" src="img2/sanjiao.png" />
+					<img class="xing2" src="img2/duodian.png" />
+
+					<!--结束字-->
+					<div class="ov_zi">
+						<img id="restar" src="img2/再试一次.png" />
+						<img id="explain" src="img2/游戏说明.png" />
+					</div>
+
+					<div class="gd_box">
+						<img class="guan" src="img2/guan1.png" />
+						<img class="content_bj" src="img2/content_bj.png" />
+						<p id="time">30 : 00</p>
+					</div>
+
+					<div id="warp" align="center">
+
+					</div>
+				</div>
+
+				<div class="explain_box">
+					<img id="close" src="img2/guanbi.png" />
+					<div class="boxDa">
+						<div class="slide_box">
+							<img id="slide" src="img2/huatiao.png" />
+						</div>
+						<div class="neirong_box">
+							<img id="neirong" src="img2/shuomingneirong.png" />
+						</div>
+					</div>
+				</div>
+
+				<div class="success">
+					<p>旺德福</p>
+					<p>你已集齐徐铮分身</p>
+					<p>vivo X5pro碎片开始合体</p>
+					<p>合体中</p>
+					<p>...</p>
+				</div>
+
+				<div class="pinhe">
+					<img class="suipian0" src="img2/suipian0.png" alt="" />
+					<img class="suipian1" src="img2/suipian1.png" alt="" />
+					<img class="suipian2" src="img2/suipian2.png" alt="" />
+					<img class="suipian3" src="img2/suipian3.png" alt="" />
+					<img class="suipian4" src="img2/suipian4.png" alt="" />
+					<img class="suipian5" src="img2/suipian5.png" alt="" />
+					<img class="suipian6" src="img2/suipian6.png" alt="" />
+					<img class="suipian7" src="img2/suipian7.png" alt="" />
+				</div>
+
+				<div class="vivo">
+					<img class="heti" src="img2/heti.png" />
+					<img class="chou" src="img2/开始抽奖.png" />
+					<img class="shuoming" src="img2/游戏说明.png" />
+				</div>
+
+				<div class="yihan">
+					<img class="hantu" src="img2/yihan.png" />
+					<img class="fanhui" src="img2/返回游戏.png" />
+				</div>
+				
+				<form class="huode" action="http://www.baidu.com" method="post" onsubmit=" return subFn()">
+					<img class="gongxi" src="img2/恭喜你获得.png"/>
+					<input class="input" type="text" name="name" id="name" value="" />
+					<input class="input" type="text" name="phone" id="phone" value="" />
+					<input id="sub" type="submit" value=""/>
+					<img class="jiang" src="img2/jiang1.png"/>
+				</form>
+					
+				
+
+			</div>
+
+		</div>
+	</body>
+	<script src="js/touchjs.min.js"></script>	
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script src="js/判断设备类型.js"></script>
+	<script src="js/game.js"></script>
+</html>
